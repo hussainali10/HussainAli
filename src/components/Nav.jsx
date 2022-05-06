@@ -24,6 +24,7 @@ const Nav = () => {
             <li className='p-4 m-4'><a href="https://www.instagram.com/hussainfrontendali/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram text-4xl text-emerald-500 cursor-pointer hover:translate-y-1 "></i></a></li>
             <li className='p-4 m-4'><a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-whatsapp text-4xl text-emerald-500 cursor-pointer hover:translate-y-1 "></i></a></li>
             <li className='p-4 m-4'><a href="https://www.linkedin.com/in/hussain-ali-02b33a224/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin text-4xl text-emerald-500 cursor-pointer hover:translate-y-1 "></i></a></li>
+            <li className='p-4 m-4'><a href="https://github.com/hussainali10" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github text-4xl text-emerald-500 cursor-pointer hover:translate-y-1 "></i></a></li>
             </ul>
            
          </div>
