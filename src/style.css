@@ -1,0 +1,453 @@
+.header1-div1 h1 span{
+    color:   #064e3b;
+    
+}
+.header1 ul li:hover{
+    color:  rgb(6 78 59);
+}
+.header1{
+    position: fixed;
+    width: 100%;
+    z-index: 191919191919;
+}
+.header1 ul{
+    transition: .4s linear;
+    text-transform: capitalize;
+    z-index: 99999;
+   
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    filter: brightness(30%);
+    
+}
+.programming{
+
+    padding-bottom: 4px;
+}
+.header2 {
+   
+    position: relative;
+}
+.header2-div1{
+    z-index: 999;
+} 
+.header2-div2{
+    z-index: 999;
+    height: 100vh;
+}
+.header2-div2 img{
+   height: 75vh;
+ 
+}
+i{
+    transition: .4s linear;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: auto;
+    grid-gap: 20px;
+    width: 100%;
+    
+}
+.projects{
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.projects h1{
+    font-size: 2rem;
+    margin: 10px;
+  
+    text-transform: capitalize;
+    color: whitesmoke;
+    
+}
+.cards .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards .card img{
+width: 90%;
+border-radius: 10px;
+transition: .3s linear;
+}
+.cards .card img:hover{
+   
+    transform: scaleX(1.1);
+}
+.services h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+    
+}
+.intro h1{
+    color: rgb(5 150 105);
+}
+.po{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    transition: .3s linear;
+
+}
+.po:hover{
+transform:scale(1.1);
+filter: brightness(100%);
+}
+
+.langs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: auto;
+    grid-gap: 60px;
+}
+.langs div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.langs i{
+    font-size: 4rem;
+}
+
+form input{
+    border: none;
+    outline: none;
+    padding: 4px 8px;
+    transition: .3s linear;
+    background-color: #064e3b;
+    box-shadow: 0px 0px 5px aqua;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form h1{
+    color: whitesmoke;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+form input:focus{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px black;
+}
+form button{
+    transition: .3s linear;
+    box-shadow: 0px 0px 5px aqua;
+   
+
+}
+.ph{
+    background-image: url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: brightness(80%);
+    box-shadow: 0px 0px 5px aqua;
+  
+}
+
+.ph h1{
+    background-color: rgba(0, 0, 0, 0.541);
+    padding: 3px;
+}
+.card{
+    
+    padding: 6px 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+
+form button{
+    border-radius: 10px;
+   
+}
+
+.num{
+    color: whitesmoke;
+}
+form button{
+    width: 100px;
+    background-color: transparent;
+    padding: 6px 10px;
+    height: 7vh;
+    margin: 10px;
+    font-size: 1.3rem;
+    color: whitesmoke;
+}
+form button:hover{
+    background-color:aliceblue;
+    color: black;
+}
+
+@media (max-width: 464px) {
+     
+     
+   
+    .header2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        overflow: hidden;
+        background-color: rgb(6 78 59);
+        text-align: center;
+        flex-direction: column-reverse;
+       
+    }
+    .header2 h1{
+        font-size: 17px;
+        
+    }
+    .header2 h2{
+        font-size: 16px;
+    }
+    .header2 p{
+        font-size: 14px;
+        margin: 3px;
+    }
+    .header2-div1{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .header2-div1 button{
+      transform: translateX(40%);
+    
+    }
+   
+    .header2-div1 ul{
+        margin: 3px;
+        transform: translateX(1px);
+    }
+    .header2-div1 ul li {
+        margin: 1px;
+        padding: 1px;
+        width: 100%;
+      
+    } 
+    .header2-div1 ul li i{
+       font-size: 25px;
+    } 
+    .cards{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        height: auto;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .cards .card img{
+        width: 100%;
+    }
+    .cards .card img:hover{
+   
+        transform: scaleX(1);
+    }
+    .services{
+        overflow: hidden;
+    }
+    .services h1{
+        font-size: 1.4rem;
+    }
+    .service{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .service h1{
+        font-size: 17px;
+        margin: 10px;
+        
+    }
+    .intro{
+        width: 100%;
+    }
+    .intro p{
+        font-size: 15px;
+    }
+    .programming h1{
+        font-size: 1.4rem;
+        
+    }
+    .langs{
+        grid-template-columns: 1fr 1fr;
+    }
+    .langs img{
+        width: 50px;
+    }
+    .about{
+        overflow: hidden;
+       
+    }
+    .about h1{
+        font-size: 1.4rem;
+    }
+    .num{
+        height: 90vh;
+    }
+    .dad{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    form h1{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    form button{
+        border-radius: 10px;
+    }
+   
+  
+}
+
+@media (max-width: 1262px) {
+   
+   
+
+  
+    
+    .header2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        overflow: hidden;
+        background-color: rgb(6 78 59);
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .header2 h1{
+        font-size: 1.9rem;
+        
+    }
+    .header2 h2{
+        font-size: 1.9rem;
+    }
+    .header2 p{
+        font-size: 1.3rem;
+        margin: 3px;
+    }
+    .header2-div1{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .header2-div1 button{
+      transform: translateX(1px);
+    
+    }
+   
+    .header2-div1 ul{
+        margin: 3px;
+        transform: translateX(1px);
+    }
+    .header2-div1 ul li {
+        margin: 1px;
+        padding: 5px;
+        width: 100%;
+      
+    } 
+    .header2-div1 ul li i{
+       font-size: 25px;
+    } 
+    .cards{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding-top: 250px; */
+        height: auto;
+        overflow: hidden;
+        text-align: center;
+        height: 100%;
+    }
+    
+    .projects h1{
+    
+       font-size: 1.4rem;
+      
+    }
+    .cards .card img{
+        width: 100%;
+    }
+    .cards .card img:hover{
+   
+        transform: scaleX(1);
+    }
+    .services{
+        overflow: hidden;
+    }
+    .services h1{
+        font-size: 1.4rem;
+    }
+    .service{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .service h1{
+        font-size: 17px;
+        margin: 10px;
+        
+    }
+    .intro{
+        width: 100%;
+    }
+    .intro p{
+        font-size: 15px;
+    }
+    .programming h1{
+        font-size: 1.4rem;
+        
+    }
+    .langs{
+        grid-template-columns: 1fr 1fr;
+    }
+    .langs img{
+        width: 50px;
+    }
+    .about{
+        overflow: hidden;
+       
+    }
+    .about h1{
+        font-size: 1.4rem;
+    }
+    .num{
+        height: 90vh;
+    }
+    .dad{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    form h1{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    form button{
+        border-radius: 10px;
+    }
+   
+}
