@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/HussainAliPortfolio/static/css/main.f38f1bfa.css",
+    "main.js": "/HussainAliPortfolio/static/js/main.84827db7.js",
+    "static/media/bg.mp4": "/HussainAliPortfolio/static/media/bg.f5f03525ed3c3e1ed5d3.mp4",
+    "static/media/1.jpg": "/HussainAliPortfolio/static/media/1.7c46c921e9a916ad29a9.jpg",
+    "static/media/pic8.png": "/HussainAliPortfolio/static/media/pic8.04fde9443862d0e90aa9.png",
+    "static/media/pic7.png": "/HussainAliPortfolio/static/media/pic7.46db48f4202245569c1a.png",
+    "static/media/pic6.png": "/HussainAliPortfolio/static/media/pic6.a17b99cbd3a66a60795d.png",
+    "static/media/p4.svg": "/HussainAliPortfolio/static/media/p4.186f43bf2b719fefbde4797d0a9041d2.svg",
+    "static/media/pic5.png": "/HussainAliPortfolio/static/media/pic5.e4a1fee52620b52a1ef8.png",
+    "static/media/p3.svg": "/HussainAliPortfolio/static/media/p3.7e3c93c2bc92e90aaf778779debe6455.svg",
+    "static/media/pic4.png": "/HussainAliPortfolio/static/media/pic4.cc35b5db58228db3e74f.png",
+    "static/media/pic1.svg": "/HussainAliPortfolio/static/media/pic1.bafab1bfe620bb4561ad4016a1ca333f.svg",
+    "static/media/pic1.jpg": "/HussainAliPortfolio/static/media/pic1.1724d89de9e33cbc038b.jpg",
+    "static/media/pic2.jpg": "/HussainAliPortfolio/static/media/pic2.6ca675485e7574a79d7b.jpg",
+    "static/media/pic3.jpg": "/HussainAliPortfolio/static/media/pic3.7173603a179a59dd7075.jpg",
+    "static/media/p2.svg": "/HussainAliPortfolio/static/media/p2.ef1011ea47c85edcdf013fe7be48dd6d.svg",
+    "static/media/tail.png": "/HussainAliPortfolio/static/media/tail.deaf71ffef7a2f12bb8f.png",
+    "static/media/p1.svg": "/HussainAliPortfolio/static/media/p1.2e4eeef8b922c03bcda487051c02754e.svg",
+    "static/media/query.png": "/HussainAliPortfolio/static/media/query.20cb5b8b93c88f414896.png",
+    "static/media/netlify.svg": "/HussainAliPortfolio/static/media/netlify.c779369f482f2cbac69c91972c7157a7.svg",
+    "index.html": "/HussainAliPortfolio/index.html",
+    "main.f38f1bfa.css.map": "/HussainAliPortfolio/static/css/main.f38f1bfa.css.map",
+    "main.84827db7.js.map": "/HussainAliPortfolio/static/js/main.84827db7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f38f1bfa.css",
+    "static/js/main.84827db7.js"
+  ]
+}
