@@ -5,6 +5,11 @@
 .header1 ul li:hover{
     color:  rgb(6 78 59);
 }
+.netlify{
+    transition: .3s linear;
+    width: 35px;
+    margin-top: 3px;
+}
 .header1{
     position: fixed;
     width: 100%;
@@ -223,6 +228,7 @@ form button:hover{
         height: 100%;
         
     }
+    
     .header2-div1 button{
       transform: translateX(40%);
     
@@ -322,7 +328,10 @@ form button:hover{
 @media (max-width: 1262px) {
    
    
-
+.netlify{
+    width: 28px;
+    margin-top: 6px;
+}
   
     
     .header2{

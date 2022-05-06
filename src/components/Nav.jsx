@@ -1,7 +1,7 @@
 import React from 'react'
 import video from '../components/bg.mp4'
 import Pic from '../components/pics/pic1.svg'
-
+import Netlify from '../components/pics/netlify.svg'
 const Nav = () => {
   return (
     <div>
@@ -19,12 +19,13 @@ const Nav = () => {
            </p>
            <button className='btn bg-emerald-400 self-center	 w-32 h-10 text-black text-xl rounded-xl m-4 hover:bg-emerald-900	hover:text-white  '>hire me</button>
            
-           <ul className='flex translate-x-28 ul2  '>
+           <ul className='flex translate-x-28 ul2   '>
             <li className='p-4 m-4'><a href="https://www.facebook.com/profile.php?id=100058449670793" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-facebook text-4xl text-emerald-500 cursor-pointer hover:translate-y-1 "></i></a></li>
             <li className='p-4 m-4'><a href="https://www.instagram.com/hussainfrontendali/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram text-4xl text-emerald-500 cursor-pointer hover:translate-y-1 "></i></a></li>
             <li className='p-4 m-4'><a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-whatsapp text-4xl text-emerald-500 cursor-pointer hover:translate-y-1 "></i></a></li>
             <li className='p-4 m-4'><a href="https://www.linkedin.com/in/hussain-ali-02b33a224/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin text-4xl text-emerald-500 cursor-pointer hover:translate-y-1 "></i></a></li>
             <li className='p-4 m-4'><a href="https://github.com/hussainali10" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github text-4xl text-emerald-500 cursor-pointer hover:translate-y-1 "></i></a></li>
+            <li className='p-4 m-4'><a href="https://app.netlify.com/teams/abo81734/overview" target="_blank" rel="noopener noreferrer"><img src={Netlify} className=' hover:translate-y-1 netlify' alt="" /></a></li>
             </ul>
            
          </div>
